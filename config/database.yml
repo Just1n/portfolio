@@ -11,7 +11,7 @@ default: &default
   collation: utf8mb4_general_ci
   pool: 5
   username: root
-  password:
+  password: <%= ENV['DATABASE_PASSWORD'] %>
   port: 3306
   host: localhost
 

@@ -23,7 +23,7 @@ module Portfolio
     config.middleware.delete ActionDispatch::Flash
     config.middleware.delete Rack::MethodOverride
 
-    config.time_zone = 'Pacific Time (US & Canada)'
+    config.time_zone = 'Eastern Time (US & Canada)'
 
     config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
 

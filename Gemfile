@@ -38,6 +38,8 @@ gem 'config'
 gem 'bugsnag'                  # bug tracking
 gem 'newrelic_rpm'             # performance monitoring
 
+gem 'dotenv-rails', :groups => [:development, :test]
+
 group :development do
   # For Deploy
   gem 'capistrano'

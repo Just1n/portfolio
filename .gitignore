@@ -50,6 +50,7 @@ bower.json
 .project
 .idea
 .secret
+.env
 /*.pem
 
 # Ignore config files for local usage

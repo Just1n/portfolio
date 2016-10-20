@@ -2,7 +2,7 @@
 lock '3.6.0'
 
 set :application, 'portfolio'
-set :repo_url, 'git@github.com:tsurupin/portfolio.git'
+set :repo_url, 'git@github.com:Swelly/portfolio.git'
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
